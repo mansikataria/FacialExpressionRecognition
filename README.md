@@ -6,11 +6,25 @@ This repository is to do facial expression prediction by fine-tuning ResNet-18 w
 (Image source: www.kaggle.com)
 
 # Notebooks
+
+### [FERResNet.ipynb](https://github.com/mansikataria/FacialExpressionRecognition/blob/main/FERResNet.ipynb)
+
+**Pytorch** is used to create **ResNet18** model. **RandomCrop** and **HorizontalFlip** are applied on data before training. The model is trained for 200 epochs with batch size 32.
+
+Private Test Accuracy achieved: 71.190%
+
+Loss Graph:
+![image](https://user-images.githubusercontent.com/11619444/127031833-2b114201-88fb-4c0b-bf38-1777d77cde06.png)
+
+Accuracy Graph:
+![image](https://user-images.githubusercontent.com/11619444/127031883-45cecb3c-af0a-4e9e-862c-e1e5aca97501.png)
+
+
 ### [FacialExpressionRecognition.ipynb](https://github.com/mansikataria/FacialExpressionRecognition/blob/main/FacialExpressionRecognition.ipynb)
 
 **Keras** is used to create and train a **CNN** model with **BatchNorm**. Data is augmented using random rotation, width/height shift, zoom, horizontal flip before training. Model is trained for 50 epochs with batch size 64. More accuracy can be achieved by training for more epochs.
 
-Test Accuracy achieved: 65.45% 
+Private Test Accuracy achieved: 65.45% 
 
 Loss & Accuracy Graph: 
 
