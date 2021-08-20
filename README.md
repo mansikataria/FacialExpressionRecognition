@@ -11,13 +11,16 @@ This repository is to do facial expression prediction by fine-tuning ResNet-18 w
 
 **Pytorch** is used to create **ResNet18** model. **RandomCrop** and **HorizontalFlip** are applied on data before training. The model is trained for 200 epochs with batch size 32.
 
-**Private Test Accuracy: 71.190%**
+**Private Test Accuracy: 73%**
 
 Loss Graph:
 ![image](https://user-images.githubusercontent.com/11619444/127031833-2b114201-88fb-4c0b-bf38-1777d77cde06.png)
 
 Accuracy Graph:
 ![image](https://user-images.githubusercontent.com/11619444/127031883-45cecb3c-af0a-4e9e-862c-e1e5aca97501.png)
+
+Confusion Matrix:
+![image](https://user-images.githubusercontent.com/11619444/130183112-da057ab9-1f4a-4e62-9f4d-4ac8afb99319.PNG)
 
 
 ### [FacialExpressionRecognition.ipynb](https://github.com/mansikataria/FacialExpressionRecognition/blob/main/FacialExpressionRecognition.ipynb)
